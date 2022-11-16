@@ -17,7 +17,7 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
-  color: #6F8BA4;
+  color: #08588d;
   font-weight: 400;
 }
 
@@ -465,7 +465,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+  background: url("../images/bg/bg9.jpg") no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -596,6 +596,12 @@ a:focus {
   text-align: center;
 }
 
+.client-thumb img{
+  height: 100px;
+  object-fit: cover;
+  /* object-position: bottom; */
+}
+
 .features {
   margin-top: -70px;
 }
@@ -671,6 +677,9 @@ a:focus {
   background: #fff;
   padding: 30px;
   border-radius: 5px;
+  min-height: 180px;
+  align-items: center;
+  display: flex;
 }
 
 .service .icon {
