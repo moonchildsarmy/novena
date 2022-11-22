@@ -24,825 +24,448 @@
 </head>
 
 <body id="top">
-	<section id="myDIV">
 
-		<header>
-			<div class="header-top-bar">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6">
-							<ul class="top-bar-info list-inline-item pl-0 mb-0">
-								<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Кыргызская Республика, Чуйская обл., Аламудунский р-н, с. Кок-Жар, ул. Бейшена Егимбаева д. 34  </li>
-							</ul>
-						</div>
-						<!-- <div class="col-lg-6">
-							<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-								<a href="tel:+23-345-67890" >
-									<span>Позвони сейчас : </span>
-									<span class="h4">823-4565-13456</span>
-								</a>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-			<nav class="navbar navbar-expand-lg navigation custom_navbar" id="navbar">
-				<div class="container">
-					<a class="navbar-brand">
-						<img src="images/Лого.png" alt="" class="img-fluid" style="width: 70%;">
-					</a>
-
-					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icofont-navigation-menu"></span>
-				</button>
-			
-				<div class="collapse navbar-collapse" id="navbarmain">
-					<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" onclick='scrollToMain()'>Главная</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" onclick='scrollToBenefits()'>Преимущество</a></li>
-						<li class="nav-item"><a class="nav-link" onclick='scrollToProduct()'>Продукты</a></li>
-
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle"  id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick='scrollToPartners()'>Партнеры</a>
-						</li>
-					<li class="nav-item"><a class="nav-link" onclick='scrollToContact()'>Контакты</a></li>
-					<div class="list text-center mt-6">
-						<a onclick="myFunction()" class="btn btn-default dropdown-toggle" href="#"><span class="flag-icon"><img src="images/team/flag-icon.jpg" alt=""/></span> English &nbsp;</a>
-						<!-- <a onclick="myFunction2()" class="btn btn-default dropdown-toggle" href="#"><span class="flag-icon"><img src="images/team/images.jpeg" alt="" style="width: 30px;"/></span> Russia &nbsp;</a> -->
-					</div>
-					</ul>
-				</div>
-				</div>
-			</nav>
-		</header>
-		<!-- Slider Start -->
-		<section class="banner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-12 col-xl-7">
-						<div class="block" id="main">
-							<div class="divider mb-3"></div>
-							<span class="text-uppercase text-sm letter-spacing ">ОсОО «Топливный Альянс»</span>
-							<h1 class="mb-3 mt-3">ОсОО «Топливный Альянс</h1>
-							
-							<p class="mb-4 pr-5" style="font-size: 18px;">Молодая активная компания, созданная опытными нефтетрейдерами, работающими на рынке РФ, рынке стран СНГ и международных рынках нефтепродуктов и нефтехимии более 10 лет.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="feature-block d-lg-flex" id="benefits">
-							<div class="feature-item mb-5 mb-lg-0">
-								<div class="feature-icon mb-4">
-									<i class="icofont-file-alt"></i>
-								</div>
-								<h4 class="mb-3">Отлаженный документооборот</h4>
-							</div>
-						
-							<div class="feature-item mb-5 mb-lg-0">
-								<div class="feature-icon mb-4">
-									<i class="icofont-rocket-alt-2 "></i>
-								</div>
-								<h4 class="mb-3">Высокая скорость работы</h4>
-							</div>
-						
-							<div class="feature-item mb-5 mb-lg-0">
-								<div class="feature-icon mb-4">
-									<i class="icofont-wall-clock "></i>
-								</div>
-								<h4 class="mb-3">Пунктуальное время доставки</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section class="section about">
+	<header>
+		<div class="header-top-bar">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-4 col-sm-6">
-						<div class="about-img">
-							<img src="images/bg/44.jpg" alt="" class="img-fluid">
-							<img src="images/bg/6.jpg" alt="" class="img-fluid mt-4">
-						</div>
+					<div class="col-lg-6">
+						<ul class="top-bar-info list-inline-item pl-0 mb-0">
+							<li class="list-inline-item language_ru"><i class="icofont-location-pin mr-2"></i>Кыргызская Республика, Чуйская обл., Аламудунский р-н, с. Кок-Жар, ул. Бейшена Егимбаева д. 34  </li>
+							<li class="list-inline-item language_en" style="display: none"><i class="icofont-location-pin mr-2"></i>Kyrgyz Republic, Chui region, Alamudun district, with. Kok-Zhar, st. Beishena Egimbaeva 34</li>
+						</ul>
 					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="about-img mt-4 mt-lg-0">
-							<img src="images/bg/2.jpg" alt="" class="img-fluid">
+					<!-- <div class="col-lg-6">
+						<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
+							<a href="tel:+23-345-67890" >
+								<span>Позвони сейчас : </span>
+								<span class="h4">+996 777 966 966</span>
+							</a>
 						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="about-content pl-4 mt-4 mt-lg-0">
-							<h2 class="title-color">Международные перевозки & контроль качества</h2>
-							<ul>
-								<li>Гибкость в платежах (в валютах юань, доллар, евро, рубль, дихрам, тугрик, USDT)</li>
-								<li>Прямые контракты с заводами-производителями в России, Белоруссии, Казахстане</li>
-								<li>Грамотный персонал</li>
-							</ul>
-						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
-		</section>
-		<section class="section service gray-bg">
-			<div class="container" id="product">
-				<div class="row justify-content-center">
-					<div class="col-lg-7 text-center">
-						<div class="section-title">
-							<h2>Наши продукты</h2>
-							<div class="divider mx-auto my-4"></div>
-							<p>Также «Топливный Альянс» готов обеспечить импортные поставки из Китая и стран Юго-Восточной Азии различных химических продуктов. </p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Сжиженные углеводородные газы (СУГ)</h4>
-							</div>
-
-							<div class="content">
-					
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Прямогонный бензин</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Авиационное топливо (керосин)</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-
-
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Дорожные & строительные битумы</h4>
-							</div>
-
-							<div class="content">
-								<!-- <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p> -->
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Мазут M-100), Газойль</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Дизельное топливо</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Уголь</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Полистирол</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Сера</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Добавки и присадки к топливу</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">ПНД(Полиэтилены)</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section clients" id="partners">
+		</div>
+		<nav class="navbar navbar-expand-lg navigation custom_navbar" id="navbar">
 			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-7">
-						<div class="section-title text-center">
-							<h2>Наши партнеры</h2>
-							<div class="divider mx-auto my-4"></div>
-							<p>Компания созданная опытными нефтетрейдерами, обладающая финансовыми, административными и кадровыми ресурсами, позволившими в короткое время выйти на рынок проявить себя как надежный партнер.</p>
+				<a class="navbar-brand">
+					<img src="images/Лого.png" alt="" class="img-fluid" style="width: 70%;">
+				</a>
+
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="icofont-navigation-menu"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="navbarmain">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link language_ru" onclick='scrollToMain()'>Главная</a>
+						<a class="nav-link language_en" style="display: none;" onclick='scrollToMain()'>Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link language_ru" onclick='scrollToBenefits()'>Преимущество</a>
+						<a class="nav-link language_en" style="display: none;" onclick='scrollToBenefits()'>Benefits</a>
+					</li>
+						<li class="nav-item">
+							<a class="nav-link language_ru" onclick='scrollToProduct()'>Продукты</a>
+							<a class="nav-link language_en" style="display: none;" onclick='scrollToProduct()'>Products</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle language_ru"  id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick='scrollToPartners()'>Партнеры</a>
+							<a class="nav-link dropdown-toggle language_en" style="display: none;"  id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick='scrollToPartners()'>Partners</a>
+						</li>
+					<li class="nav-item">
+						<a class="nav-link language_ru" onclick='scrollToContact()'>Контакты</a>
+						<a class="nav-link language_en" style="display: none;" onclick='scrollToContact()'>Contact</a>
+					</li>
+					<div class="list text-center mt-6 language_ru">
+						<a onclick="changeLanguage('en')" class="btn btn-default dropdown-toggle" href="#"><span class="flag-icon"><img src="images/team/flag-icon.jpg" alt=""/></span> English &nbsp;</a>
+					</div>
+					<div class="list text-center mt-6 language_en" style="display: none">
+						<a onclick="changeLanguage('ru')" class="btn btn-default dropdown-toggle" href="#"><span class="flag-icon"><img src="images/team/images.jpeg" alt="" style="width: 30px;"/></span> Russia &nbsp;</a>
+					</div>
+				</ul>
+				
+			</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Slider Start -->
+	<section class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-xl-7">
+					<div class="block" id="main">
+						<div class="divider mb-3"></div>
+						<span class="text-uppercase text-sm letter-spacing language_ru">ОсОО «Топливный Альянс»</span>
+						<span class="text-uppercase text-sm letter-spacing language_en" style="display: none">“TA” business activities</span>
+						<h1 class="mb-3 mt-3 language_ru">ОсОО «Топливный Альянс»</h1>
+						<h1 class="mb-3 mt-3 language_en" style="display: none">“TA” business activities</h1>
+						
+						<p class="mb-4 pr-5 language_ru" style="font-size: 18px; font-weight: bold;">Молодая активная компания, созданная опытными нефтетрейдерами, работающими на рынке РФ, рынке стран СНГ и международных рынках нефтепродуктов и нефтехимии более 10 лет.</p>
+						<p class="mb-4 pr-5 language_en" style="display: none; font-size: 18px; font-weight: bold;">A young active company created by experienced oil traders operating in the Russian market, the market of the CIS countries and the international markets of oil products and petrochemicals for more than 10 years.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="feature-block d-lg-flex" id="benefits">
+						<div class="feature-item mb-5 mb-lg-0">
+							<div class="feature-icon mb-4">
+								<i class="icofont-file-alt"></i>
+							</div>
+							<h4 class="mb-3 language_ru">Отлаженный документооборот</h4>
+							<h4 class="mb-3 language_en" style="display: none;">deffered document flow</h4>
+						</div>
+					
+						<div class="feature-item mb-5 mb-lg-0">
+							<div class="feature-icon mb-4">
+								<i class="icofont-rocket-alt-2 "></i>
+							</div>
+							<h4 class="mb-3 language_ru">Высокая скорость работы</h4>
+							<h4 class="mb-3 language_en" style="display: none;">High operating speed</h4>
+						</div>
+					
+						<div class="feature-item mb-5 mb-lg-0">
+							<div class="feature-icon mb-4">
+								<i class="icofont-wall-clock "></i>
+							</div>
+							<h4 class="mb-3 language_ru">Пунктуальное время доставки</h4>
+							<h4 class="mb-3 language_en" style="display: none;">Punctual delivery time</h4>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
 
-			<div class="container">
-				<div class="row clients-logo">
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/1.jpg" alt="" class="img-fluid">
-						</div>
+
+	<section class="section about">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-4 col-sm-6">
+					<div class="about-img">
+						<img src="images/bg/44.jpg" alt="" class="img-fluid">
+						<img src="images/bg/6.jpg" alt="" class="img-fluid mt-4">
 					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/2.jpg" alt="" class="img-fluid">
-						</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="about-img mt-4 mt-lg-0">
+						<img src="images/bg/2.jpg" alt="" class="img-fluid">
 					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/3.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/4.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/5.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/6.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/7.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/8.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/9.jpg" alt="" class="img-fluid">
-						</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="about-content pl-4 mt-4 mt-lg-0">
+						<h2 class="title-color language_ru">Международные перевозки & контроль качества</h2>
+						<h2 class="title-color language_en" style="display: none;">International shipping & quality control</h2>
+						<ul class="language_ru">
+							<li>Гибкость в платежах (в валютах юань, доллар, евро, рубль, дихрам, тугрик, USDT)</li>
+							<li>Прямые контракты с заводами-производителями в России, Белоруссии, Казахстане</li>
+							<li>Грамотный персонал</li>
+						</ul>
+						<ul class="language_en" style="display: none;">
+							<li>Flexibility in payments (in yuan, dollar, euro, ruble, dirham, tugrik, USDT)</li>
+							<li>Direct contracts with manufacturing plants in Russia, Belarus, Kazakhstan</li>
+							<li>Competent staff</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- footer Start -->
-		<footer class="footer section gray-bg">
-			<div class="container" id="contact">
-				<div class="row">
-					<div class="col-lg-4 mr-auto col-sm-6">
-						<div class="widget mb-5 mb-lg-0">
-							<div class="logo mb-4">
-								<img src="images/Лого.png" alt="" class="img-fluid">
-							</div>
+		</div>
+	</section>
+	<section class="section service gray-bg">
+		<div class="container" id="product">
+			<div class="row justify-content-center">
+				<div class="col-lg-7 text-center">
+					<div class="section-title">
+						<h2 class="language_ru">Наши продукты</h2>
+						<h2 class="language_en" style="display: none;">Our products</h2>
+						<div class="divider mx-auto my-4"></div>
+						<p class="language_ru">Также «Топливный Альянс» готов обеспечить импортные поставки из Китая и стран Юго-Восточной Азии различных химических продуктов. </p>
+						<p class="language_en" style="display: none;">Also "Fuel Alliance" is ready to provide import deliveries from China and the countries of Southeast Asia of various chemical products. </p>
+					</div>
+				</div>
+			</div>
 
-							<ul class="list-inline footer-socials mt-4">
-								<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
-							</ul>
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-blood-drop  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Сжиженные углеводородные газы (СУГ)</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Liquefied petroleum gas (LPG)</h4>
+						</div>
+
+						<div class="content">
+				
 						</div>
 					</div>
+				</div>
 
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="widget widget-contact mb-5 mb-lg-0">
-							<h4 class="text-capitalize mb-3">Связаться</h4>
-							<div class="divider mb-4"></div>
-
-							<div class="footer-contact-block mb-4">
-								<div class="icon d-flex align-items-center">
-									<i class="icofont-email mr-3"></i>
-									<span class="h6 mb-0">Support Available for 24/7</span>
-								</div>
-								<h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4>
-							</div>
-
-							<div class="footer-contact-block">
-								<div class="icon d-flex align-items-center">
-									<i class="icofont-support mr-3"></i>
-									<span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
-								</div>
-								<h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
-							</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-blood-drop  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Прямогонный бензин</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Petroleum naphtha</h4>
+						</div>
+						<div class="content">
+							
 						</div>
 					</div>
 				</div>
 				
-				<div class="footer-btm py-4 mt-5">
-					<div class="row align-items-center justify-content-between">
-						<div class="col-lg-6">
-							<div class="copyright">
-								&copy; ОсОО «Топливный Альянс»
-							</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-blood-drop  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Авиационное топливо   (керосин)</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Jet fuel  (kerosene)</h4>
 						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-lg-4">
-							<a class="backtop js-scroll-trigger" href="#top">
-								<i class="icofont-long-arrow-up"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</section>
-	<section id="myDIV2" style="display: none">
-
-		<header>
-			<div class="header-top-bar">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-lg-6">
-							<ul class="top-bar-info list-inline-item pl-0 mb-0">
-								<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Kyrgyz Republic, Chui region, Alamudun district, with. Kok-Zhar, st. Beishena Egimbaeva 34 </li>
-							</ul>
-						</div>
-						<!-- <div class="col-lg-6">
-							<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-								<a href="tel:+23-345-67890" >
-									<span>Позвони сейчас : </span>
-									<span class="h4">823-4565-13456</span>
-								</a>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-			<nav class="navbar navbar-expand-lg navigation custom_navbar" id="navbar_2">
-				<div class="container">
-					<a class="navbar-brand">
-						<img src="images/Лого.png" alt="" class="img-fluid" style="width: 70%;">
-					</a>
-		
-					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icofont-navigation-menu"></span>
-				</button>
-			
-				<div class="collapse navbar-collapse" id="navbarmain">
-					<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" onclick='scrollToMain2()'>Home</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" onclick='scrollToBenefits2()'>Benefits</a></li>
-						<li class="nav-item"><a class="nav-link" onclick='scrollToProduct2()'>Products</a></li>
-		
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle"  id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick='scrollToPartners2()'>Partners</a>
-						</li>
-					<li class="nav-item"><a class="nav-link" onclick='scrollToContact2()'>Contact</a></li>
-					<div class="list text-center mt-6">
-						<!-- <a onclick="myFunction()" class="btn btn-default dropdown-toggle" href="#"><span class="flag-icon"><img src="images/team/flag-icon.jpg" alt=""/></span> English &nbsp;</a> -->
-						<a onclick="myFunction2()" class="btn btn-default dropdown-toggle" href="#"><span class="flag-icon"><img src="images/team/images.jpeg" alt="" style="width: 30px;"/></span> Russia &nbsp;</a>
-					</div>
-					</ul>
-				</div>
-				</div>
-			</nav>
-		</header>
-		<!-- Slider Start -->
-		<section class="banner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-12 col-xl-7">
-						<div class="block" id="main_2">
-							<div class="divider mb-3"></div>
-							<span class="text-uppercase text-sm letter-spacing ">“TA” business activities </span>
-							<h1 class="mb-3 mt-3">“TA” business activities</h1>
+						<div class="content">
 							
-							<p class="mb-4 pr-5" style="font-size: 18px;">A young active company created by experienced oil traders operating in the Russian market, the market of the CIS countries and the international markets of oil products and petrochemicals for more than 10 years.</p>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="feature-block d-lg-flex" id="benefits_2">
-							<div class="feature-item mb-5 mb-lg-0">
-								<div class="feature-icon mb-4">
-									<i class="icofont-file-alt"></i>
-								</div>
-								<h4 class="mb-3">Deffered document flow</h4>
-							</div>
-						
-							<div class="feature-item mb-5 mb-lg-0">
-								<div class="feature-icon mb-4">
-									<i class="icofont-rocket-alt-2 "></i>
-								</div>
-								<h4 class="mb-3">High operating speed</h4>
-							</div>
-						
-							<div class="feature-item mb-5 mb-lg-0">
-								<div class="feature-icon mb-4">
-									<i class="icofont-wall-clock "></i>
-								</div>
-								<h4 class="mb-3">Punctual delivery time</h4>
-							</div>
+
+
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-blood-drop  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Дорожные & строительные битумы</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Road & construction bitumen</h4>
+						</div>
+
+						<div class="content">
+							<!-- <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p> -->
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		
-		
-		<section class="section about">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-4 col-sm-6">
-						<div class="about-img">
-							<img src="images/bg/44.jpg" alt="" class="img-fluid">
-							<img src="images/bg/6.jpg" alt="" class="img-fluid mt-4">
+
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-blood-drop  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Мазут M-100</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Fuel oil (Mazut M-100)</h4>
 						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="about-img mt-4 mt-lg-0">
-							<img src="images/bg/2.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="about-content pl-4 mt-4 mt-lg-0">
-							<h2 class="title-color">International shipping & quality control</h2>
-							<ul>
-								<li>Flexibility in payments (in yuan, dollar, euro, ruble, dirham, tugrik, USDT)</li>
-								<li>Direct contracts with manufacturing plants in Russia, Belarus, Kazakhstan</li>
-								<li>Competent staff</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section service gray-bg">
-			<div class="container" id="product_2">
-				<div class="row justify-content-center">
-					<div class="col-lg-7 text-center">
-						<div class="section-title">
-							<h2>Our products</h2>
-							<div class="divider mx-auto my-4"></div>
-							<p>Also "Fuel Alliance" is ready to provide import deliveries from China and the countries of Southeast Asia of various chemical products. </p>
-						</div>
-					</div>
-				</div>
-		
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Liquefied petroleum gas (LPG)</h4>
-							</div>
-		
-							<div class="content">
-					
-							</div>
-						</div>
-					</div>
-		
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Petroleum naphtha</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Gasoline (petrol)</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-		
-		
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Diesel fuel</h4>
-							</div>
-		
-							<div class="content">
-								<!-- <p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p> -->
-							</div>
-						</div>
-					</div>
-		
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Fuel oil (Mazut M-100)</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Road & construction bitumen</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Jet fuel  (kerosene)</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-blood-drop  text-lg"></i>
-								<h4 class="mt-3 mb-3">Gasoline</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Coal</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Fuel additives</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Sulphur</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">Polysterene</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-6">
-						<div class="service-item mb-4">
-							<div class="icon d-flex align-items-center">
-								<i class="icofont-electron  text-lg"></i>
-								<h4 class="mt-3 mb-3">HDPE (Low Density PolyEthylene)</h4>
-							</div>
-							<div class="content">
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="section clients" id="partners_2">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-7">
-						<div class="section-title text-center">
-							<h2>Our partners</h2>
-							<div class="divider mx-auto my-4"></div>
-							<p>The company was created by experienced oil traders, possessing financial, administrative and human resources, which allowed it to enter the market in a short time to prove itself as a reliable partner.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-			<div class="container">
-				<div class="row clients-logo">
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/1.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/2.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/3.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/4.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/5.png" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/6.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/7.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/8.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-					<div class="col-lg-2">
-						<div class="client-thumb">
-							<img src="images/partners/9.jpg" alt="" class="img-fluid">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- footer Start -->
-		<footer class="footer section gray-bg">
-			<div class="container" id="contact_2">
-				<div class="row">
-					<div class="col-lg-4 mr-auto col-sm-6">
-						<div class="widget mb-5 mb-lg-0">
-							<div class="logo mb-4">
-								<img src="images/Лого.png" alt="" class="img-fluid">
-							</div>
-		
-							<ul class="list-inline footer-socials mt-4">
-								<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
-							</ul>
-						</div>
-					</div>
-		
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="widget widget-contact mb-5 mb-lg-0">
-							<h4 class="text-capitalize mb-3">Get in touch </h4>
-							<div class="divider mb-4"></div>
-		
-							<div class="footer-contact-block mb-4">
-								<div class="icon d-flex align-items-center">
-									<i class="icofont-email mr-3"></i>
-									<span class="h6 mb-0">Support Available for 24/7</span>
-								</div>
-								<h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4>
-							</div>
-		
-							<div class="footer-contact-block">
-								<div class="icon d-flex align-items-center">
-									<i class="icofont-support mr-3"></i>
-									<span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
-								</div>
-								<h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
-							</div>
+						<div class="content">
+							
 						</div>
 					</div>
 				</div>
 				
-				<div class="footer-btm py-4 mt-5">
-					<div class="row align-items-center justify-content-between">
-						<div class="col-lg-6">
-							<div class="copyright">
-								&copy; 
-								“TA” business activities 
-							</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-blood-drop  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Дизельное топливо</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Diesel fuel</h4>
+						</div>
+						<div class="content">
+							
 						</div>
 					</div>
-		
-					<div class="row">
-						<div class="col-lg-4">
-							<a class="backtop js-scroll-trigger" href="#top">
-								<i class="icofont-long-arrow-up"></i>
-							</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-electron  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Уголь</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Coal</h4>
+						</div>
+						<div class="content">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-electron  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Полистирол</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Polysterene</h4>
+						</div>
+						<div class="content">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-electron  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Сера</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Sulphur</h4>
+						</div>
+						<div class="content">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-electron  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">Добавки и присадки к топливу</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">Fuel additives</h4>
+						</div>
+						<div class="content">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-item mb-4">
+						<div class="icon d-flex align-items-center">
+							<i class="icofont-electron  text-lg"></i>
+							<h4 class="mt-3 mb-3 language_ru">ПНД(Полиэтилены)</h4>
+							<h4 class="mt-3 mb-3 language_en" style="display: none;">HDPE (Low Density PolyEthylene)</h4>
+						</div>
+						<div class="content">
+							
 						</div>
 					</div>
 				</div>
 			</div>
-		</footer>
+		</div>
 	</section>
+	<section class="section clients" id="partners">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<div class="section-title text-center">
+						<h2 class="language_ru">Наши партнеры</h2>
+						<h2 class="language_en" style="display: none;">Наши партнеры</h2>
+						<div class="divider mx-auto my-4"></div>
+						<p class="language_ru">Компания созданная опытными нефтетрейдерами, обладающая финансовыми, административными и кадровыми ресурсами, позволившими в короткое время выйти на рынок проявить себя как надежный партнер.</p>
+						<p class="language_en" style="display: none;">The company was created by experienced oil traders, possessing financial, administrative and human resources, which allowed it to enter the market in a short time to prove itself as a reliable partner.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row clients-logo">
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/1.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/2.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/3.png" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/4.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/5.png" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/6.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/7.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/8.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="client-thumb">
+						<img src="images/partners/9.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer Start -->
+	<footer class="footer section gray-bg">
+		<div class="container" id="contact">
+			<div class="row">
+				<div class="col-lg-4 mr-auto col-sm-6">
+					<div class="widget mb-5 mb-lg-0">
+						<div class="logo mb-4">
+							<img src="images/Лого.png" alt="" class="img-fluid">
+						</div>
+
+						<!-- <ul class="list-inline footer-socials mt-4">
+							<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
+						</ul> -->
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="widget widget-contact mb-5 mb-lg-0">
+						<h4 class="text-capitalize mb-3 language_ru">Связаться</h4>
+						<h4 class="text-capitakize mb-3 language_en" style="display: none;">Get in touch with</h4>
+						<div class="divider mb-4"></div>
+
+						<div class="footer-contact-block mb-4">
+							<div class="icon d-flex align-items-center">
+								<i class="icofont-email mr-3"></i>
+								<span class="h6 mb-0 language_ru">Поддержка доступна 24/7</span>
+								<span class="h6 mb-0 language_en" style="display: none;">Support Available for 24/7</span>
+							</div>
+							<h4 class="mt-2"><a>office@fuel-alliance.com</a></h4>
+							<h4 class="mt-2"><a>fuel-alliance@mail.ru</a></h4>
+						</div>
+
+						<div class="footer-contact-block">
+							<div class="icon d-flex align-items-center">
+								<i class="icofont-support mr-3"></i>
+								<span class="h6 mb-0 language_ru">Позвони сейчас</span>
+								<span class="h6 mb-0 language_en" style="display: none;">Сall now</span>
+							</div>
+							<h4 class="mt-2"><a href="tel:+996 777 966 966">+996 777 966 966</a></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer-btm py-4 mt-5">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6">
+						<div class="copyright">
+							&copy; ОсОО «Топливный Альянс»
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4">
+						<a class="backtop js-scroll-trigger" href="#top">
+							<i class="icofont-long-arrow-up"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
    
 
@@ -945,6 +568,30 @@
 		var y = document.getElementById("myDIV");
 		y.style.display = "block";
 	}
+	</script>
+	<script>
+		function changeLanguage(language = 'en') {
+			if (language === 'en') {
+				let lang_ru = document.getElementsByClassName('language_en');
+				for (let i = 0; i < lang_ru.length; i++) {
+					lang_ru[i].style.display = 'block'
+				}
+				let lang_en = document.getElementsByClassName('language_ru');
+				for (let i = 0; i < lang_en.length; i++) {
+					lang_en[i].style.display = 'none'
+				}
+			} else {
+				let lang_ru = document.getElementsByClassName('language_en');
+				for (let i = 0; i < lang_ru.length; i++) {
+					lang_ru[i].style.display = 'none'
+				}
+				let lang_en = document.getElementsByClassName('language_ru');
+				for (let i = 0; i < lang_en.length; i++) {
+					lang_en[i].style.display = 'block'
+				}
+			}
+	
+		}
 	</script>
 
 </body>
